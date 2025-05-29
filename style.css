@@ -722,7 +722,7 @@ body, html {
   border: 5px solid black; /* Optional: Adds a clear boundary */
 }
 .hero-section {
-  background-color: black !important; /* Ensures uniform black background */
+  background-color: white !important; /* Ensures uniform black background */
   display: flex;
   flex-direction: column;
   align-items: center;
