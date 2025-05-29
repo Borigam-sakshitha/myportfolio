@@ -584,7 +584,7 @@ h2 {
 .hero-img img {
   width: 350px;
   max-width: 100%;
-  height: auto;
+  height: 350px;
   border-radius: 50%;
   display: block;
 }
@@ -722,7 +722,7 @@ body, html {
   border-radius: 50%; /* Makes it a perfect circle */
   display: block;
   margin: 0 auto; /* Centers the image */
-  background-color: white; /* Background color for transparency */
+  /*background-color: white;*/ /* Background color for transparency */
   border: 5px solid white; /* Optional: Adds a clear boundary */
 }
 .hero-section {
@@ -738,8 +738,7 @@ body, html {
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
-  background-color: white; /* Same as hero-section */
+  align-items: center; /* Same as hero-section */
   margin-top:-150px;
 }
 
