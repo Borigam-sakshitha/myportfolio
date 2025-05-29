@@ -607,7 +607,7 @@ h2 {
   }
 
   /* Hero Section */
-  section.hero-section {
+  /*section.hero-section {
     flex-direction: column;
     padding: 40px;
     padding-top: 130px;
@@ -615,7 +615,7 @@ h2 {
 
   .hero-img img {
     display: none;
-  }
+  }*/
 
   /* About Section */
   section.about-section {
@@ -681,6 +681,12 @@ body, html {
   padding: 0; /* No unnecessary padding */
   position: relative;
   box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row; /* Always row */
+  padding: 100px 120px 50px 200px; /* Adjust for mobile using % or smaller px values if needed */
+}
 }
 
 /* Hero image styling */
@@ -704,6 +710,8 @@ body, html {
   border-radius: 50%;
   display: block;
   background-color: white;
+  width: 60%; /* Use percentage */
+  max-width: 250px; /* Limit max size */
 }
 
 /* Fix about section positioning */
