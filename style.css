@@ -506,13 +506,10 @@ h2 {
 
 @media screen and (max-width: 1024px) {
   .hero-section {
-    display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-  width: 100%;
-  padding: 40px;
-  position: relative;
+   flex-direction: column;
+    text-align: center;
+    padding: 80px 30px;
+    align-items: center;
   }
 
   .hero-section div {
@@ -574,7 +571,6 @@ h2 {
 }
 .hero-text h4 {
   font-size: 18px;
-  margin-top: 20px;
 }
 
 /* Styling for the image */
@@ -613,8 +609,9 @@ h2 {
   /* Hero Section */
   section.hero-section {
     flex-direction: column;
-    align-items: center;
-    padding: 60px 20px;
+    padding: 40px;
+    padding-top: 130px;
+    
   }
 
   .hero-img img {
@@ -697,12 +694,12 @@ body, html {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-bottom: 10px; /* Reduce space */
+  margin-bottom: 20px; /* Reduce space */
 }
 
 .hero-img img {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
   border-radius: 50%;
   display: block;
@@ -749,8 +746,8 @@ body, html {
 }
 
 .hero-img img {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   position:absolute;
  
   display: block;
