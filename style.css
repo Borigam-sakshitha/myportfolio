@@ -574,6 +574,7 @@ h2 {
 }
 .hero-text h4 {
   font-size: 18px;
+  margin-top: 20px;
 }
 
 /* Styling for the image */
@@ -587,7 +588,7 @@ h2 {
 .hero-img img {
   width: 350px;
   max-width: 100%;
-  height: auto;
+  height: 350px;
   border-radius: 50%;
   display: block;
 }
@@ -696,7 +697,7 @@ body, html {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-bottom: 20px; /* Reduce space */
+  margin-bottom: 10px; /* Reduce space */
 }
 
 .hero-img img {
@@ -705,7 +706,7 @@ body, html {
   object-fit: cover;
   border-radius: 50%;
   display: block;
-  background-color: white;
+ /* background-color: white;*/
   
 }
 
