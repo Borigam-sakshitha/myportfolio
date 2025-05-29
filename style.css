@@ -690,11 +690,11 @@ body, html {
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 20px;
- /* order: -1;  Moves image above text 
+  order: -1; /* Moves image above text */
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-bottom: 20px; Reduce space */
+  margin-bottom: 20px; /* Reduce space */
 }
 
 .hero-img img {
