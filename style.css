@@ -618,6 +618,7 @@ h2 {
 
   .hero-img img {
     display: none;
+    
   }
 
   /* About Section */
@@ -699,8 +700,8 @@ body, html {
 }
 
 .hero-img img {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   border-radius: 50%;
   display: block;
@@ -719,8 +720,8 @@ body, html {
   background-color: white;
 }
 .hero-img img {
-  width: 250px; /* Ensure width & height are equal */
-  height: 250px;
+  width: 200px; /* Ensure width & height are equal */
+  height: 200px;
   object-fit: cover; /* Ensures the image covers the frame without distortion */
   border-radius: 50%; /* Makes it a perfect circle */
   display: block;
@@ -748,7 +749,7 @@ body, html {
 
 .hero-img img {
   width: 200px;
-  height: auto;
+  height: 200px;
   position:absolute;
  
   display: block;
