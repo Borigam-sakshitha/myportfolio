@@ -666,7 +666,7 @@ a{
 body, html {
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color: white;
 }
 
 /* Hero section takes full screen height with proper spacing */
@@ -677,7 +677,7 @@ body, html {
   text-align: center;
   min-height: 100vh; /* Ensures it takes full screen */
   width: 100%;
-  background-color: black;
+  background-color: white;
   padding: 0; /* No unnecessary padding */
   position: relative;
   box-sizing: border-box;
