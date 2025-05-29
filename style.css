@@ -723,7 +723,7 @@ body, html {
   display: block;
   margin: 0 auto; /* Centers the image */
   /background-color: white;/ /* Background color for transparency */
-  border: 5px solid white; /* Optional: Adds a clear boundary */
+  border: 0px solid white; /* Optional: Adds a clear boundary */
 }
 .hero-section {
   background-color: white !important; /* Ensures uniform black background */
@@ -739,7 +739,7 @@ body, html {
   display: flex;
   justify-content: center;
   align-items: center; /* Same as hero-section */
-  margin-top:-100px;
+  margin-top:-150px;
 }
 
 .hero-img img {
@@ -827,8 +827,8 @@ header ul li a {
 }
 
 .hero-img img {
-  width: 300px; /* Adjust size for mobile */
-  height: 300px;
+  width: 2500px; /* Adjust size for mobile */
+  height: 250px;
   padding-right: 0; /* Remove extra padding */
   object-fit:cover;
 }
