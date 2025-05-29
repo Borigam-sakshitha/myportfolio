@@ -767,19 +767,96 @@ header ul {
   gap: 2px; /* Further reduces spacing*/
 }
 header ul li a {
-  font-size: 14px;
-  padding:2px;
+  font-size: 7px;
+  padding:0.1px;
 }
 .hero-img {
   position: static; /* Remove absolute positioning */
   transform: none; /* Reset transform */
-  margin-bottom: 20px; /* Add spacing between image and text */
+  margin-bottom:0px /* Add spacing between image and text */
 }
 
 .hero-img img {
-  width: 250px; /* Adjust size for mobile */
-  height: 250px;
+  width: 200px; /* Adjust size for mobile */
+  height: 200px;
   padding-right: 0; /* Remove extra padding */
+  object-fit:cover;
+}
+.hero-section__title{
+  font-size:12px;
+
+}
+.hero-section__title #animated-text {
+  font-size: 15px; /* even smaller size for the animated text */
+  color:#00aaff;/* optional: different color */
+}
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Helps with responsiveness on small screens */
+  gap: 0px; /* Adjust spacing between text and image */
+  padding: 0px;
 }
 
+.hero-content {
+  max-width: 600px; /* Adjust based on how wide you want the text */
+  flex: 1;
+}
+
+.hero-img {
+  flex-shrink: 0; /* Prevent image from shrinking */
+  margin-top:-150px;
+}
+.hero-img img {
+  max-width: 100%;
+  height: 300px;
+  width:300px;
+  display: block;
+}
+header ul li a{
+  font-size:7px;
+  padding:0.2px;
+}
+.education-card {
+    position: relative;
+    padding-top: 2.5rem; /* give space for badge on top if needed */
+  }
+
+  .year-badge {
+    display: block;
+    position: static;
+    margin-top: 0.5rem;
+    width: fit-content;
+    font-size: 0.85rem;
+  }
+
+  .education-card h3 {
+    display: block;
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-bottom: 0.3rem;
+  }
+}
+@media (max-width: 600px) {
+  .education-card {
+    position: relative;
+    padding-top: 2.5rem; /* give space for badge on top if needed */
+  }
+
+  .year-badge {
+    display: block;
+    position: static;
+    margin-top: 0.5rem;
+    width: 100%; /* full width so it doesn't overlap */
+    font-size: 0.95rem;
+  }
+
+  .education-card h3 {
+    display: block;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    margin-bottom: 0.3rem;
+    margin-top: 0.2rem;
+  }
 }
