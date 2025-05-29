@@ -685,11 +685,16 @@ body, html {
 
 /* Hero image styling */
 .hero-img {
-  order: -1; /* Moves image above text */
+  width: 200px; /* Adjust size as needed */
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+ /* order: -1;  Moves image above text 
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-bottom: 20px; /* Reduce space */
+  margin-bottom: 20px; Reduce space */
 }
 
 .hero-img img {
@@ -790,14 +795,16 @@ header ul li a {
   font-size: 15px; /* even smaller size for the animated text */
   color:#00aaff;/* optional: different color */
 }
-.hero-section {
+ .hero-section {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap; /* Helps with responsiveness on small screens */
-  gap: 0px; /* Adjust spacing between text and image */
-  padding: 0px;
+  text-align: center;
+  padding-top: 100px;
+  background-color: black !important;
 }
+
+
 
 .hero-content {
   max-width: 600px; /* Adjust based on how wide you want the text */
