@@ -506,10 +506,13 @@ h2 {
 
 @media screen and (max-width: 1024px) {
   .hero-section {
-    flex-direction: column;
-    text-align: center;
-    padding: 80px 30px;
-    align-items: center;
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  padding: 40px;
+  position: relative;
   }
 
   .hero-section div {
@@ -609,8 +612,8 @@ h2 {
   /* Hero Section */
   section.hero-section {
     flex-direction: column;
-    padding: 40px;
-    padding-top: 130px;
+    align-items: center;
+    padding: 60px 20px;
   }
 
   .hero-img img {
