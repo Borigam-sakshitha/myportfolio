@@ -743,13 +743,13 @@ body, html {
 }
 
 .hero-img img {
-  width: 250px;
-  height: 270px;
+  width: 350px;
+  height: 350px;
   object-fit:cover;
   border-radius:50%
   display: block;
   margin: 0 auto;
-  border: 5px solid black; /* Ensure smooth transition */
+  border: 0px solid ; /* Ensure smooth transition */
   
 }
   
