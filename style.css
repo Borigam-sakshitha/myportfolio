@@ -692,7 +692,7 @@ body, html {
   margin-bottom: 20px;
   order: -1; /* Moves image above text */
   display: flex;
-  justify-content: center;
+  /*justify-content: center;*/
   width: 100%;
   margin-bottom: 20px; /* Reduce space */
 }
