@@ -121,7 +121,7 @@ section.hero-section {
   padding-right:20px;
 }
 #animated-text {
-  font-size: 25px; /* Adjust size as needed */
+  font-size: 30px; /* Adjust size as needed */
   font-weight: bold;
   color: black; /* Change color if necessary */
 }
@@ -739,14 +739,14 @@ body, html {
   display: flex;
   justify-content: center;
   align-items: center; /* Same as hero-section */
-  margin-top:-150px;
+  margin-top:-100px;
 }
 
 .hero-img img {
-  width: 350px;
-  height: 350px;
-  object-fit:cover;
-  border-radius:50%
+  width: 250px;
+  height: auto;
+  position:absolute;
+  
   display: block;
   margin: 0 auto;
   border: 0px solid ; /* Ensure smooth transition */
@@ -827,8 +827,8 @@ header ul li a {
 }
 
 .hero-img img {
-  width: 2500px; /* Adjust size for mobile */
-  height: 250px;
+  width: 300px; /* Adjust size for mobile */
+  height: 300px;
   padding-right: 0; /* Remove extra padding */
   object-fit:cover;
 }
